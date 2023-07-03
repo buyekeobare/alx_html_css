@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My First Website Ever</title>
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li></li><a href="./index.html">Home</a></li>
+                <li><a href="./tweets.html">Tweets</a></li>
+            </ul>
+        </header>
+            <main>
+                <article>
+                    <h1>Tweets</h1>
+                    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Call me PLATINUM QUEEN 👑following My Own Yellow Brick Road. <a href="https://t.co/IUTYtrWJ60">https://t.co/IUTYtrWJ60</a></p>&mdash; Buyeke (@buyeke_obare) <a href="https://twitter.com/buyeke_obare/status/907888926467260416?ref_src=twsrc%5Etfw">September 13, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js"></script>
+                </article>
+                <aside>
+                    <p>Placeholder to add comment thread later.</p>
+                </aside>
+            </main>
+            <footer>
+                <p>Made by Buyeke Obare - <a href="https://en.wikipedia.org/wiki/Coding" target="_blank">here</a></p>
+            </footer>
+    </body>
+</html>
