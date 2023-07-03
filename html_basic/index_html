@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My First Website Ever</title>
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./tweets.html">Tweets</a></li>
+            </ul>
+        </header>
+        <main>
+            <article>
+                <h1>My Website</h1>
+                    <ul>
+                        <li><a href="#introducton">Introduction</a></li>
+                        <li><a href="#tools">Tools</a></li>
+                        <li><a href="#media">Media</a></li>
+                    </ul>
+            <div id="Introduction">    
+                <h2>About My Website</h2>
+                    <p>This is my first time creating a website and it feels so great. <br> I have just started learning to code with <em>Alx-Holberton school</em> and this is a dream come true.</p>
+            </div>
+            <div id="Tools">
+                <h3>Coding Tools</h3>
+                    <p><strong>Text Editor</strong> <br> Visual Studio Code <br> Vim <br> Emacs <br> <br> <strong>Version Control System</strong>git</p>
+            </div>
+            <div id="Media">
+                <h2>Media</h2>
+                    <img src="https://www.holbertonschool.com/holberton-logo.png" alt="Holberton School Logo">
+            </div>
+            </article>
+            <aside>
+                <p>Placeholder to add comment thread later</p>
+            </aside>
+            <article>
+                <h2>Learners Information</h2>
+                    <table border="1" cellspacing="0" style="border-collapse:collapse;border:1px solid black;padding:2px;width:20%">
+                        <thead>
+                            <tr>
+                                <th style="width:1%;text-align:center">Name</th>
+                                <th style="width:1%;text-align:center">Age</th>
+                                <th style="width:1%;text-align:center">Country</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="text-align:center">John</td>
+                                <td style="text-align:center">25</td>
+                                <td style="text-align:center">USA</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align:center">Emily</td>
+                                <td style="text-align:center">28</td>
+                                <td style="text-align:center">Canada</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align:center">Michael</td>
+                                <td style="text-align:center">32</td>
+                                <td style="text-align:center">Australia</td>
+                            <tr>
+                                <td style="text-align:center">Sophia</td>
+                                <td style="text-align:center">21</td>
+                                <td style="text-align:center">UK</td>
+                            </tr>
+                        </tbody> 
+                    </table>
+            </article>
+        </main>
+        <footer>
+            <p>Made by Buyeke Obare - <a href="https://en.wikipedia.org/wiki/Coding" target="_blank">here</a></p>
+        </footer>
+    </body>
+</html>
