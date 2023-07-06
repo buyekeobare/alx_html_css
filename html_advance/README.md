@@ -11,3 +11,4 @@ Remember to 'Duplicate to your Drafts' to have access to all design details. If 
 Open your web browser and go to the GitHub repository: https://github.com/buyekeobare/alx_html_css
 - On the repository page, click on the "Code" button. This will reveal a dropdown with the repository URL.
 - Copy the URL
+![School Page](https://github.com/buyekeobare/alx_html_css/blob/main/html_advance/image/School%20Page.png)
