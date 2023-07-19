@@ -89,6 +89,27 @@ nav a {
   border-radius: 22px;
   background: #C271FF;
   border: none;
+  display: block;
+  margin: auto;
+ }
+
+ #mini-text > strong {
+  color: #C271FF;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+ }
+
+ #mini-text {
+  color: #FFF;
+  font-family: Source Sans Pro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
  }
 
  .images {
