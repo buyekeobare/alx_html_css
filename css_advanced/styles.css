@@ -26,9 +26,8 @@ nav a {
   cursor: pointer;
   }
   
-  main section {
-    height: 1000px;
-    background-image: url(images/Bitmap.png);
+.school-page {
+    background-image: url(images/background\ \(1\).png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -38,34 +37,62 @@ nav a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 1440px;
+    height: 1093px;
+    flex-shrink: 0;
   }
   
   html {
     scroll-behavior: smooth;
   }
-  main section h1, p {
-    color: #FFF;
-    text-align: center;
-  }
+
+ #text {
+  color: #FFF;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 230px;
+  padding-bottom: 0px;
+ }
   
-  #main-text {
-    color: #FFF;
-    text-align: center;
-    font-family: Source Sans Pro;
-    font-size: 120px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-  
-  #text {
-    color: #FFF;
-    text-align: center;
-    font-family: Source Sans Pro;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 0;
-    padding-top: 0;
-  }
+ .sub-text {
+  color: #FFF;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 100px;
+  padding-top: 0px;
+ }
+
+ button {
+  color: #FFF;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 162px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 22px;
+  background: #C271FF;
+  border: none;
+ }
+
+ .images {
+  display: flex;
+  justify-content: space-around;
+
+ }
