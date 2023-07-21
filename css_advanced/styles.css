@@ -69,10 +69,7 @@ nav a {
   justify-content: space-around;
   align-items: center;
   display: flex;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-bottom: 100px;
-  padding-top: 0px;
+  padding: 0 0 0 0;
  }
 
  button {
@@ -93,7 +90,7 @@ nav a {
   margin: auto;
  }
 
- #mini-text > strong {
+ span {
   color: #C271FF;
   text-align: center;
   font-family: Source Sans Pro;
@@ -112,8 +109,13 @@ nav a {
   line-height: normal;
  }
 
+main section article img {
+  border-radius: 50% 50% 50% 50%;
+  margin: 0 15px;
+  padding: 0;
+ }
+
  .images {
   display: flex;
-  justify-content: space-around;
-
+  flex-direction: row;
  }
