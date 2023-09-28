@@ -18,23 +18,27 @@
         <input type="email" name="useremail" id="e-mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
       </li>
     <li>
-      <input type="checkbox" name="userfeedback" id="fdbk_opt_1" />
+      <input type="checkbox" name="userfeedback" id="fdbk_opt_1" required />
       <label for="fdbk_opt_1">Excellent</label>
     </li>
     <li>
-      <input type="checkbox" name="userfeedback-option" id="fdbk_opt_2" />
+      <input type="checkbox" name="userfeedback-option" id="fdbk_opt_2" required />
       <label for="fdbk_opt_2">Good</label>
     </li>
     <li>
-      <input type="checkbox" name="userfeedback-option" id="fdbk_opt_3" />
+      <input type="checkbox" name="userfeedback-option" id="fdbk_opt_3" required />
       <label for="fdbk_opt_3">Average</label>
     </li>
     <li>
-      <input type="checkbox" name="userfeedback" id="fdbk_opt_4" />
+      <input type="checkbox" name="userfeedback" id="fdbk_opt_4" required/>
       <label for="fdbk_opt_4">Poor</label>
     </li>
     <li>
-      <input type="file" name="file" id="file" accept="image/*" />
+      <label for="file">File:</label>
+      <input type="file" name="file" id="file" accept="image/*" required/>
+    </li>
+    <li>
+      <button type="submit">Submit form</button>
     </li>
     </ul>
   </form>

@@ -23,3 +23,7 @@ ul {
 form li+li {
   margin-top: 1em;
 }
+
+button {
+  margin: 1em;
+}
