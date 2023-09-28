@@ -11,20 +11,18 @@
     <ul>
       <li>
         <label for="name">Name:<span aria-label="required">*</span></label>
-        <input type="text" name="username" id="name">
+        <input type="text" name="username" id="name" required>
       </li>
       <li>
         <label for="e-mail">Email:<span aria-label="required">*</span></label>
-        <input type="email" name="useremail" id="e-mail">
+        <input type="email" name="useremail" id="e-mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
       </li>
       <li>
         <label for="color">What's your favorite color?<span aria-label="required">*</span></label>
         <select name="color" id="color">
-          <optgroup label="colors">
             <option>Red</option>
             <option>Green</option>
             <option>Blue</option>
-          </optgroup>
         </select>
       </li>
       <li>
@@ -34,6 +32,9 @@
       <li>
         <label for="date">Date:<span aria-label="required">*</span></label>
         <input type="date" name="date" id="date">
+      </li>
+      <li>
+        <button type="submit">Submit form</button>
       </li>
     </ul>
   </form>
