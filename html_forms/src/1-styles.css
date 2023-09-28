@@ -1,0 +1,24 @@
+form {
+  /* Center the form on the page */
+  margin: 50px auto;
+  width: 600px;
+  /* Form outline */
+  padding: 2em;
+  border: 1px solid #ccc;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li+li {
+  margin-top: 1em;
+}
