@@ -57,3 +57,66 @@ To implement the time and date selection, use the following input types:
 For time: <input type="time">
 
 For date: <input type="date">
+
+# Evaluation Quiz
+
+0. What is the HTML attribute used to set the minimum length of an input field?
+
+minlength
+
+1. What are some common validation techniques used in form submissions?
+
+Checking for empty fields, validating email addresses, and enforcing password requirements
+
+2. How can you make an input field required in HTML5?
+
+By adding the required attribute to the <input> element
+
+3. What is the purpose of form submissions in web development?
+
+To collect user input data for further processing
+
+4. What are some common validation techniques for checking email addresses in form submissions?
+
+Checking for the presence of an "@" symbol and a valid domain name
+Checking the length of the email address string
+Verifying the format of the email address using regular expressions
+All of the above
+
+5. How can you provide a default selected option in a dropdown menu in HTML?
+
+By using the selected attribute on the desired <option> element
+
+6. How can you group related radio buttons together in HTML?
+
+By using the <input type="radio"> element with the same name attribute
+
+7. Which HTML input type is used for single-line text input?
+
+text
+
+8. How can you specify a pattern that the input value must match in HTML5?
+
+By using the pattern attribute with a regular expression
+
+9. Which HTML input type is used for selecting multiple options from a list?
+
+checkbox
+
+10. What is an HTML form used for?
+
+To gather user input and send it to a server
+
+11. What is the purpose of form field validation?
+
+To ensure that the entered data meets specific criteria or constraints
+To display error messages to the user in case of invalid input
+To prevent the submission of incomplete or incorrect data
+
+12. Which HTML element is used to create a form?
+
+<form>
+
+13. How can you perform basic form validation using HTML5 attributes?
+
+By using the required and other validation attributes on input elements
