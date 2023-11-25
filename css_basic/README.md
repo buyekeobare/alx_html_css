@@ -1,9 +1,8 @@
 # CSS BASIC PROJECT
 
-
 ## INSTRUCTIONS
 
-###0. Some early styling
+### 0. Some early styling
 
 Copy into this folder index.html and tweets.html that you created in the previous project:
 
@@ -14,7 +13,7 @@ In each of your HTML files, add these 2 lines within the <head> tag (do not conf
 <link href="base.css" rel="stylesheet">
 <link href="styles.css" rel="stylesheet">
 
-###1. Positioning
+### 1. Positioning
 
 Even though each element of your webpages now has a different style, you may notice they still are stacked on top of each other, and that’s probably not what you want. CSS brings a few different approaches to positioning that one may use depending on cases.
 
@@ -32,15 +31,51 @@ Ensure the <main> tag keeps an automatic height and width, by applying the flex:
 To wrap up the layout, you want to be sure that your content (article) takes ⅔ of the width of the page, and your aside takes ⅓; you can assign to them the number of boxes they should fill in. This is done by applying the property flex: 2 to <article> (using up 2 boxes), and flex: 1 to <aside> (using up 1 box).
 Finally, you want to be sure that the user can scroll within your <article> and your <aside>. You can do this by applying the overflow-y: auto CSS property to both of them.
 
-###2. Responsive web design
+### 2. Responsive web design
 
 You may notice that the website keeps this layout when you make your browser window smaller, or visit it from a smartphone, and it’s unpleasant to use that way for your users. No worries, we covered this for you: just add the attribute class="works_on_smartphone" on the <body> tag in your index.html file, and the layout you just created will degrade nicely as you resize the window!
 
 But you’ll notice, if you visit your website on a smartphone, that it will still have that layout, and just seem “zoomed out”. That’s because you need to adjust what is called the “viewport” of the browser when rendering the page. Hint: this gets done by adding a certain tag to your HTML code.
 
-###3. Some more styling
+### 3. Some more styling
 
 Your website is unique, and if you want it not to look like everyone else’s, you may want to take some time to style everything of it as you wish!
 
 You may add any non-positioning-related CSS rules to styles.css (like colors, backgrounds, borders, …)
 You may do whatever you want with the HTML content and the CSS that applies inside the <article> tag.
+
+# Evaluation Quiz
+
+0. What are Box properties in CSS?
+
+Properties that control the size and positioning of an element's content box
+
+1. How does the browser load a webpage with CSS?
+
+The browser first parses the HTML markup, then applies the CSS styles
+
+2. What is a class in CSS?
+
+A group of HTML elements with the same styling
+
+3. What is a selector in CSS?
+
+A pattern that identifies which elements to apply styles to
+
+4. What is CSS?
+
+A style sheet language for describing the presentation of a document
+
+5. How do you add style to an element in CSS?
+
+By using the <style> tag within the HTML document
+By applying inline styles using the style attribute
+By linking an external CSS file using the <link> tag
+
+6. What is the purpose of the HTML <p> element?
+
+Define a paragraph
+
+7. How do you compute CSS Specificity Value?
+
+By assigning weights to different parts of a CSS selector

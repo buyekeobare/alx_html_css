@@ -1,6 +1,6 @@
-# Flexbox Project  
+# Flexbox Project
 
-## Description  
+## Description
 
 #### 0. Add display flex
 
@@ -10,7 +10,7 @@ When using display: flex; on a container, all direct children become flex-items 
 
 With display flex, margins are not collapsing as they would with block items. Also remember that flexbox is 1-dimensional system (vs CSS Grid which is a 2 dimensional system)
 
-In the /* Grid section within your CSS
+In the /\* Grid section within your CSS
 
 Add a selector for the row class
 Property: display, Value: flex
@@ -18,7 +18,7 @@ Property: display, Value: flex
 
 Entirely remove the row::after declaration
 Remove the float: left inside [class*='col-']
-=> All elements should appear same than before using the float  
+=> All elements should appear same than before using the float
 
 #### 1. Add new classes on sections
 
@@ -41,9 +41,10 @@ In the outermost section tag for testimonial
 Add the class section-testimonial
 In the outermost section tag for contact
 
-Add the class section-contact  
+Add the class section-contact
 
 #### 2. Reverse order Latest news cards
+
 Using the files from the previous task for this task:
 
 The flex-direction property says how flex items are placed on the main axis and their direction (normal or reversed).
@@ -54,12 +55,12 @@ row-reverse and column-reverse should be used in specific situation. The visual 
 
 In your CSS file:
 
-Before /*** 4. CARD ***/, add a new comment: /* Section Latest news ============================= */
+Before /**_ 4. CARD _**/, add a new comment: /_ Section Latest news ============================= _/
 
 Under that comment section, target the row class inside section-latest-news class
 
 Property: flex-direction, Value: row-reverse
-The Latest news should appear in a reverse order.  
+The Latest news should appear in a reverse order.
 
 #### 3. Simplify services list
 
@@ -69,11 +70,11 @@ flex-wrap is a property that can force the flex items to be in one or multiple l
 
 In the Services section of 3-index.html, remove the second ul and put the 3 lielements under the first ul
 
-Now, in your CSS file, before /*** 4. CARD ***/, add a new comment: /* Section SERVICES ============================= */
+Now, in your CSS file, before /**_ 4. CARD _**/, add a new comment: /_ Section SERVICES ============================= _/
 
 Under that comment section, add a new selector targeting the row class inside the section-services class
 
-Property: flex-wrap, Value: wrap  
+Property: flex-wrap, Value: wrap
 
 #### 4. Playing around with the spacing between flex service items
 
@@ -93,7 +94,7 @@ Remove the padding declaration
 Set Property: margin to 1rem
 In ul.row declaration
 
-Replace the current margin with -1rem  
+Replace the current margin with -1rem
 
 #### 5. Flexify the header
 
@@ -104,7 +105,7 @@ In your 5-index.html file, inside the Header section
 Wrap the div with class header-logo and the div with class navbar-menu with a div that has header-container as a class
 In your 5-styles.css file,
 
-Inside the /* Header section
+Inside the /\* Header section
 Add a selector for the header-container class
 Property: display, Value: flex
 Property: justify-content, Value: space-between
@@ -118,13 +119,13 @@ header-logo-position
 header-logo-link-display
 header-logo-link-position
 header-logo-link-top
-header-logo-link-left  
+header-logo-link-left
 
 #### 6. Flexify the navbar
 
 Using the files from the previous task for this task:
 
-in 6-styles.css, inside the /* Navbarsection
+in 6-styles.css, inside the /\* Navbarsection
 
 In the nav class selector
 Property: display, Value: flex
@@ -132,12 +133,26 @@ Inside the .nav .nav-item selector, remove the display declaration
 Target .nav-item + .nav-item inside nav class
 Move the margin declaration from .nav .nav-item inside the new selector.
 In the variables section
-Change the value of the variable nav-item-margin to be 0 0 0 2rem  
+Change the value of the variable nav-item-margin to be 0 0 0 2rem
 
 #### 7. Align center logo and navbar
 
 Using the files from the previous task for this task:
 
-In 7-styles.css, inside the /* Header section, in the header-container class selector, set the property align-items to center
+In 7-styles.css, inside the /\* Header section, in the header-container class selector, set the property align-items to center
 
+0. How do you horizontally and vertically align elements using Flexbox?
 
+Apply the align-items and justify-content properties to the parent container
+
+2. How do you convert float positioning to a flex display?
+
+Apply the display: flex property to the parent container
+
+3. What is Flexbox?
+
+A CSS layout module for building flexible and responsive designs
+
+4. What is the purpose of the display: flex; property in CSS?
+
+It creates a flex container and enables Flexbox layout.
